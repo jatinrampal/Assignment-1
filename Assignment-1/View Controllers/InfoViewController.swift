@@ -19,10 +19,6 @@ class InfoViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var tfCity: UITextField!
     @IBOutlet weak var tfPhone: UITextField!
     
-
-    
-    
-  
     var i:String = String(0);
     
     var db: OpaquePointer?
